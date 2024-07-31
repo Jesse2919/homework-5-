@@ -1,0 +1,29 @@
+# Project Management Task Board
+
+## Description
+
+This is a project management application that allows teams to manage project tasks effectively. The application features a task board where tasks are categorized into three columns representing their progress: "Not Yet Started," "In Progress," and "Completed." Tasks can be added, updated, and deleted, with changes persisting across page reloads.
+
+The application uses jQuery for DOM manipulation, jQuery UI for interactivity, and Day.js for date handling. Tasks are color-coded based on their deadlines to provide visual cues for overdue and nearing deadline tasks.
+
+## User Story
+
+As a project team member with multiple tasks to organize, I want a task board so that I can add individual project tasks, manage their state of progress, and track overall project progress accordingly.
+
+## Acceptance Criteria
+
+- **Task Board Display:** When I open the task board, the list of project tasks is displayed in columns representing the task progress state (Not Yet Started, In Progress, Completed).
+- **Task Color Coding:** Tasks are color-coded to indicate whether they are nearing the deadline (yellow) or are overdue (red).
+- **Adding New Tasks:** I can enter the title, description, and deadline date for a new task into a modal dialog.
+- **Saving Tasks:** The properties for a new task are saved in localStorage.
+- **Updating Task Progress:** I can drag a task to a different progress column to update its state, and it will stay in the new column after refreshing.
+- **Deleting Tasks:** I can delete a task from the task board, and it will not be added back after refreshing.
+- **Persistence:** Saved tasks persist across page reloads.
+
+## Installation
+
+To use this application, clone the repository and open `index.html` in your browser.
+
+```bash
+git clone <repository-url>
+cd <repository-directory>
